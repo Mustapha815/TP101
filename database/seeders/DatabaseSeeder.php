@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // Créer 5 départements
-        Departement::factory()->count(5)->create();
+        Departement::factory()->count(25)->create();
         // Créer 20 employés répartis dans les départements
         Employe::factory()->count(20)->create();
     }
